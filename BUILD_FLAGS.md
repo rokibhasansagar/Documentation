@@ -2,6 +2,7 @@
 
 This section provides custom PBRP Build Flags that can be used while building for devices.
 Add these flags at the bottom of `BoardConfig.mk` file.
+> Please refer to https://pitchblackrecovery.com/docs-category/how-to/ for more info.
 
 ### Maintainer Info
 
