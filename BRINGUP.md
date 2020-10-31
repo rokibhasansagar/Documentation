@@ -6,7 +6,7 @@ First things first,
 
 Then you just have to modify the omni_$CODENAME.mk file
 
-## omni_$CODENAME.mk sample
+### omni_$CODENAME.mk sample
 
 ```makefile
 # Inherit from those products. Most specific first.
@@ -44,7 +44,7 @@ PRODUCT_MODEL :=
 TARGET_VENDOR :=  
 ```
 
-## omni.dependencies skeleton
+### omni.dependencies skeleton
 
 You must add at least an empty omni.dependencies file in you device tree even if it has no dependency.
 Otherwise, roomservice might throw a warning or two. Best to be on the Safe side.
@@ -54,4 +54,7 @@ Otherwise, roomservice might throw a warning or two. Best to be on the Safe side
 ]
 ```
 
-### Read more about a few special [Build Flags](BUILD_FLAGS.md) that might need to tweak you device.
+### Read More
+
+- A few special [Build Flags](BUILD_FLAGS.md) that might need to tweak you device.
+- Also See through [Building Instructions](BUILDING_Instructions.md) for building in CircleCI.
